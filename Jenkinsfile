@@ -1,40 +1,20 @@
 pipeline {
     agent any
 
-    environment {
-        JAVA_HOME = 'C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.16.8-hotspot'
+    tools {
+        maven 'Maven3'
     }
 
     stages {
-
-        stage('Debug') {
-            steps {
-                bat '''
-                set PATH=%JAVA_HOME%\\bin;%PATH%
-                echo %JAVA_HOME%
-                where java
-                java -version
-                where mvn
-                mvn -version
-                '''
-            }
-        }
-
         stage('Build') {
             steps {
-                bat '''
-                set PATH=%JAVA_HOME%\\bin;%PATH%
-                mvn clean compile
-                '''
+                bat 'mvn clean compile'
             }
         }
 
         stage('Test') {
             steps {
-                bat '''
-                set PATH=%JAVA_HOME%\\bin;%PATH%
-                mvn test
-                '''
+                bat 'mvn test'
             }
         }
     }
