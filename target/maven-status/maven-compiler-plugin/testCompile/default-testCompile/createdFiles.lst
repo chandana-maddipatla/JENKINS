@@ -1,0 +1,14 @@
+pages\HomePage.class
+pages\DealsPage.class
+stepdefinitions\SearchSteps.class
+utils\WaitUtils.class
+base\BasePage.class
+stepdefinitions\DealsSteps.class
+pages\NavigationPage.class
+base\DriverFactory.class
+pages\SearchPage.class
+utils\LoggerUtil.class
+utils\ScreenshotUtil.class
+hooks\Hooks.class
+runner\TestRunner.class
+stepdefinitions\NavigationSteps.class

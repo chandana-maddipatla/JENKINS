@@ -1,0 +1,195 @@
+2026-06-23 22:33:26.129 [main] INFO  utils.LoggerUtil - =================================================
+2026-06-23 22:33:26.138 [main] INFO  utils.LoggerUtil - SCENARIO START: Navigate to Today's Deals page
+2026-06-23 22:33:26.138 [main] INFO  utils.LoggerUtil - =================================================
+2026-06-23 22:33:26.139 [main] INFO  hooks.Hooks - Tags: [@Regression, @Deals, @Positive]
+2026-06-23 22:33:29.457 [main] INFO  hooks.Hooks - Browser launched for scenario: Navigate to Today's Deals page
+2026-06-23 22:33:29.481 [main] INFO  utils.LoggerUtil - ▶ STEP: Opening Amazon website
+2026-06-23 22:33:30.674 [main] INFO  base.BasePage - Navigated to: https://www.amazon.in
+2026-06-23 22:33:30.692 [main] INFO  base.BasePage - Page fully loaded
+2026-06-23 22:33:30.717 [main] INFO  utils.LoggerUtil - ✓ PASS: Amazon opened successfully
+2026-06-23 22:33:30.721 [main] INFO  utils.LoggerUtil - ▶ STEP: Click Today's Deals
+2026-06-23 22:33:35.891 [main] INFO  base.BasePage - Clicked element: By.xpath: //a[contains(@href,'deals')]
+2026-06-23 22:33:35.952 [main] INFO  base.BasePage - Page fully loaded
+2026-06-23 22:33:35.952 [main] INFO  utils.LoggerUtil - ✓ PASS: Clicked Today's Deals
+2026-06-23 22:33:35.981 [main] INFO  hooks.Hooks - Scenario PASSED: Navigate to Today's Deals page
+2026-06-23 22:33:36.343 [main] INFO  hooks.Hooks - Browser closed
+2026-06-23 22:33:36.343 [main] INFO  utils.LoggerUtil - SCENARIO PASSED: Navigate to Today's Deals page
+2026-06-23 22:33:36.344 [main] INFO  utils.LoggerUtil - =================================================
+2026-06-23 22:33:36.387 [main] INFO  utils.LoggerUtil - =================================================
+2026-06-23 22:33:36.387 [main] INFO  utils.LoggerUtil - SCENARIO START: Open left navigation menu
+2026-06-23 22:33:36.389 [main] INFO  utils.LoggerUtil - =================================================
+2026-06-23 22:33:36.389 [main] INFO  hooks.Hooks - Tags: [@Regression, @Navigation, @Positive]
+2026-06-23 22:33:37.735 [main] INFO  hooks.Hooks - Browser launched for scenario: Open left navigation menu
+2026-06-23 22:33:37.738 [main] INFO  utils.LoggerUtil - ▶ STEP: Opening Amazon website
+2026-06-23 22:33:37.902 [main] INFO  base.BasePage - Navigated to: https://www.amazon.in
+2026-06-23 22:33:41.521 [main] INFO  base.BasePage - Page fully loaded
+2026-06-23 22:33:41.559 [main] INFO  utils.LoggerUtil - ✓ PASS: Amazon opened successfully
+2026-06-23 22:33:41.561 [main] INFO  utils.LoggerUtil - ▶ STEP: Open left navigation menu
+2026-06-23 22:33:42.731 [main] INFO  base.BasePage - Clicked element: By.id: nav-hamburger-menu
+2026-06-23 22:33:43.387 [main] INFO  pages.NavigationPage - Left nav menu opened
+2026-06-23 22:33:43.391 [main] INFO  utils.LoggerUtil - ✓ PASS: Left nav menu opened
+2026-06-23 22:33:43.421 [main] INFO  utils.LoggerUtil - Nav menu has 38 items
+2026-06-23 22:33:43.424 [main] INFO  hooks.Hooks - Scenario PASSED: Open left navigation menu
+2026-06-23 22:33:43.893 [main] INFO  hooks.Hooks - Browser closed
+2026-06-23 22:33:43.894 [main] INFO  utils.LoggerUtil - SCENARIO PASSED: Open left navigation menu
+2026-06-23 22:33:43.894 [main] INFO  utils.LoggerUtil - =================================================
+2026-06-23 22:33:43.906 [main] INFO  utils.LoggerUtil - =================================================
+2026-06-23 22:33:43.906 [main] INFO  utils.LoggerUtil - SCENARIO START: Navigate to Mobile Phones via left nav menu
+2026-06-23 22:33:43.906 [main] INFO  utils.LoggerUtil - =================================================
+2026-06-23 22:33:43.907 [main] INFO  hooks.Hooks - Tags: [@Regression, @Navigation, @Positive]
+2026-06-23 22:33:44.972 [main] INFO  hooks.Hooks - Browser launched for scenario: Navigate to Mobile Phones via left nav menu
+2026-06-23 22:33:44.972 [main] INFO  utils.LoggerUtil - ▶ STEP: Opening Amazon website
+2026-06-23 22:33:46.350 [main] INFO  base.BasePage - Navigated to: https://www.amazon.in
+2026-06-23 22:33:46.402 [main] INFO  base.BasePage - Page fully loaded
+2026-06-23 22:33:46.414 [main] INFO  utils.LoggerUtil - ✓ PASS: Amazon opened successfully
+2026-06-23 22:33:46.417 [main] INFO  utils.LoggerUtil - ▶ STEP: Navigate to Mobile Phones
+2026-06-23 22:33:49.334 [main] INFO  base.BasePage - Clicked element: By.id: nav-hamburger-menu
+2026-06-23 22:33:49.942 [main] INFO  pages.NavigationPage - Left nav menu opened
+2026-06-23 22:33:50.309 [main] INFO  base.BasePage - Scrolled to element
+2026-06-23 22:33:50.336 [main] INFO  base.BasePage - JS clicked element
+2026-06-23 22:33:50.336 [main] INFO  pages.NavigationPage - Clicked menu item Mobiles, Computers
+2026-06-23 22:33:50.348 [main] INFO  base.BasePage - Page fully loaded
+2026-06-23 22:33:52.074 [main] INFO  base.BasePage - Scrolled to element
+2026-06-23 22:33:58.841 [main] INFO  base.BasePage - JS clicked element
+2026-06-23 22:33:58.842 [main] INFO  pages.NavigationPage - Clicked menu item All Mobile Phones
+2026-06-23 22:33:58.851 [main] INFO  base.BasePage - Page fully loaded
+2026-06-23 22:33:58.851 [main] INFO  utils.LoggerUtil - ✓ PASS: Navigated to Mobile Phones
+2026-06-23 22:33:58.871 [main] INFO  hooks.Hooks - Scenario PASSED: Navigate to Mobile Phones via left nav menu
+2026-06-23 22:33:59.274 [main] INFO  hooks.Hooks - Browser closed
+2026-06-23 22:33:59.274 [main] INFO  utils.LoggerUtil - SCENARIO PASSED: Navigate to Mobile Phones via left nav menu
+2026-06-23 22:33:59.274 [main] INFO  utils.LoggerUtil - =================================================
+2026-06-23 22:33:59.289 [main] INFO  utils.LoggerUtil - =================================================
+2026-06-23 22:33:59.289 [main] INFO  utils.LoggerUtil - SCENARIO START: Navigate to menu item and return to homepage
+2026-06-23 22:33:59.289 [main] INFO  utils.LoggerUtil - =================================================
+2026-06-23 22:33:59.289 [main] INFO  hooks.Hooks - Tags: [@Regression, @Navigation, @Positive]
+2026-06-23 22:34:00.367 [main] INFO  hooks.Hooks - Browser launched for scenario: Navigate to menu item and return to homepage
+2026-06-23 22:34:00.371 [main] INFO  utils.LoggerUtil - ▶ STEP: Opening Amazon website
+2026-06-23 22:34:00.556 [main] INFO  base.BasePage - Navigated to: https://www.amazon.in
+2026-06-23 22:34:03.673 [main] INFO  base.BasePage - Page fully loaded
+2026-06-23 22:34:03.704 [main] INFO  utils.LoggerUtil - ✓ PASS: Amazon opened successfully
+2026-06-23 22:34:03.705 [main] INFO  utils.LoggerUtil - ▶ STEP: Open left navigation menu
+2026-06-23 22:34:04.207 [main] INFO  base.BasePage - Clicked element: By.id: nav-hamburger-menu
+2026-06-23 22:34:04.886 [main] INFO  pages.NavigationPage - Left nav menu opened
+2026-06-23 22:34:04.891 [main] INFO  utils.LoggerUtil - ✓ PASS: Left nav menu opened
+2026-06-23 22:34:04.895 [main] INFO  utils.LoggerUtil - ▶ STEP: Select menu item: Mobiles
+2026-06-23 22:34:05.281 [main] INFO  base.BasePage - Scrolled to element
+2026-06-23 22:34:05.307 [main] INFO  base.BasePage - JS clicked element
+2026-06-23 22:34:05.307 [main] INFO  pages.NavigationPage - Clicked menu item Mobiles, Computers
+2026-06-23 22:34:05.321 [main] INFO  base.BasePage - Page fully loaded
+2026-06-23 22:34:05.321 [main] INFO  utils.LoggerUtil - ✓ PASS: Menu item selected: Mobiles
+2026-06-23 22:34:05.323 [main] INFO  utils.LoggerUtil - ▶ STEP: Navigate back to main menu
+2026-06-23 22:34:05.377 [main] INFO  base.BasePage - JS clicked element
+2026-06-23 22:34:05.379 [main] INFO  pages.NavigationPage - Menu closed
+2026-06-23 22:34:05.379 [main] INFO  utils.LoggerUtil - ✓ PASS: Returned to main menu
+2026-06-23 22:34:05.382 [main] INFO  utils.LoggerUtil - ▶ STEP: Verify homepage
+2026-06-23 22:34:05.409 [main] INFO  utils.LoggerUtil - ✓ PASS: Verified homepage
+2026-06-23 22:34:05.412 [main] INFO  hooks.Hooks - Scenario PASSED: Navigate to menu item and return to homepage
+2026-06-23 22:34:05.865 [main] INFO  hooks.Hooks - Browser closed
+2026-06-23 22:34:05.866 [main] INFO  utils.LoggerUtil - SCENARIO PASSED: Navigate to menu item and return to homepage
+2026-06-23 22:34:05.866 [main] INFO  utils.LoggerUtil - =================================================
+2026-06-23 22:34:05.879 [main] INFO  utils.LoggerUtil - =================================================
+2026-06-23 22:34:05.880 [main] INFO  utils.LoggerUtil - SCENARIO START: Verify homepage is Amazon after navigation
+2026-06-23 22:34:05.880 [main] INFO  utils.LoggerUtil - =================================================
+2026-06-23 22:34:05.880 [main] INFO  hooks.Hooks - Tags: [@Regression, @Navigation, @Negative]
+2026-06-23 22:34:06.785 [main] INFO  hooks.Hooks - Browser launched for scenario: Verify homepage is Amazon after navigation
+2026-06-23 22:34:06.787 [main] INFO  utils.LoggerUtil - ▶ STEP: Opening Amazon website
+2026-06-23 22:34:06.972 [main] INFO  base.BasePage - Navigated to: https://www.amazon.in
+2026-06-23 22:34:10.814 [main] INFO  base.BasePage - Page fully loaded
+2026-06-23 22:34:10.871 [main] INFO  utils.LoggerUtil - ✓ PASS: Amazon opened successfully
+2026-06-23 22:34:10.874 [main] INFO  utils.LoggerUtil - ▶ STEP: Open left navigation menu
+2026-06-23 22:34:11.376 [main] INFO  base.BasePage - Clicked element: By.id: nav-hamburger-menu
+2026-06-23 22:34:11.987 [main] INFO  pages.NavigationPage - Left nav menu opened
+2026-06-23 22:34:11.989 [main] INFO  utils.LoggerUtil - ✓ PASS: Left nav menu opened
+2026-06-23 22:34:11.989 [main] INFO  utils.LoggerUtil - ▶ STEP: Navigate back to main menu
+2026-06-23 22:34:12.035 [main] INFO  utils.LoggerUtil - ✓ PASS: Returned to main menu
+2026-06-23 22:34:12.037 [main] INFO  utils.LoggerUtil - ▶ STEP: Verify homepage
+2026-06-23 22:34:12.137 [main] INFO  utils.LoggerUtil - ✓ PASS: Verified homepage
+2026-06-23 22:34:12.139 [main] INFO  hooks.Hooks - Scenario PASSED: Verify homepage is Amazon after navigation
+2026-06-23 22:34:12.673 [main] INFO  hooks.Hooks - Browser closed
+2026-06-23 22:34:12.673 [main] INFO  utils.LoggerUtil - SCENARIO PASSED: Verify homepage is Amazon after navigation
+2026-06-23 22:34:12.673 [main] INFO  utils.LoggerUtil - =================================================
+2026-06-23 22:34:12.690 [main] INFO  utils.LoggerUtil - =================================================
+2026-06-23 22:34:12.690 [main] INFO  utils.LoggerUtil - SCENARIO START: Search for Mobiles and verify results appear
+2026-06-23 22:34:12.690 [main] INFO  utils.LoggerUtil - =================================================
+2026-06-23 22:34:12.690 [main] INFO  hooks.Hooks - Tags: [@Regression, @Search, @Positive]
+2026-06-23 22:34:13.512 [main] INFO  hooks.Hooks - Browser launched for scenario: Search for Mobiles and verify results appear
+2026-06-23 22:34:13.512 [main] INFO  utils.LoggerUtil - ▶ STEP: Opening Amazon website
+2026-06-23 22:34:14.816 [main] INFO  base.BasePage - Navigated to: https://www.amazon.in
+2026-06-23 22:34:14.824 [main] INFO  base.BasePage - Page fully loaded
+2026-06-23 22:34:14.835 [main] INFO  utils.LoggerUtil - ✓ PASS: Amazon opened successfully
+2026-06-23 22:34:14.837 [main] INFO  utils.LoggerUtil - ▶ STEP: Search for product: Mobiles
+2026-06-23 22:34:17.654 [main] INFO  base.BasePage - Typed 'Mobiles' into: By.id: twotabsearchtextbox
+2026-06-23 22:34:20.332 [main] INFO  base.BasePage - Clicked element: By.id: nav-search-submit-button
+2026-06-23 22:34:20.359 [main] INFO  base.BasePage - Page fully loaded
+2026-06-23 22:34:20.361 [main] INFO  utils.LoggerUtil - ✓ PASS: Search performed for: Mobiles
+2026-06-23 22:34:20.361 [main] INFO  utils.LoggerUtil - ▶ STEP: Verify search results present
+2026-06-23 22:34:20.511 [main] INFO  utils.LoggerUtil - Search returned 22 results
+2026-06-23 22:34:20.511 [main] INFO  utils.LoggerUtil - ✓ PASS: Search results verified: 22 items
+2026-06-23 22:34:20.511 [main] INFO  hooks.Hooks - Scenario PASSED: Search for Mobiles and verify results appear
+2026-06-23 22:34:21.032 [main] INFO  hooks.Hooks - Browser closed
+2026-06-23 22:34:21.032 [main] INFO  utils.LoggerUtil - SCENARIO PASSED: Search for Mobiles and verify results appear
+2026-06-23 22:34:21.032 [main] INFO  utils.LoggerUtil - =================================================
+2026-06-23 22:34:21.039 [main] INFO  utils.LoggerUtil - =================================================
+2026-06-23 22:34:21.040 [main] INFO  utils.LoggerUtil - SCENARIO START: Search for Mobiles and get last displayed item details
+2026-06-23 22:34:21.040 [main] INFO  utils.LoggerUtil - =================================================
+2026-06-23 22:34:21.040 [main] INFO  hooks.Hooks - Tags: [@Regression, @Search, @Positive]
+2026-06-23 22:34:21.987 [main] INFO  hooks.Hooks - Browser launched for scenario: Search for Mobiles and get last displayed item details
+2026-06-23 22:34:21.987 [main] INFO  utils.LoggerUtil - ▶ STEP: Opening Amazon website
+2026-06-23 22:34:22.209 [main] INFO  base.BasePage - Navigated to: https://www.amazon.in
+2026-06-23 22:34:23.252 [main] INFO  base.BasePage - Page fully loaded
+2026-06-23 22:34:23.261 [main] INFO  utils.LoggerUtil - ✓ PASS: Amazon opened successfully
+2026-06-23 22:34:23.264 [main] INFO  utils.LoggerUtil - ▶ STEP: Search for product: Mobiles
+2026-06-23 22:34:25.895 [main] INFO  base.BasePage - Typed 'Mobiles' into: By.id: twotabsearchtextbox
+2026-06-23 22:34:29.178 [main] INFO  base.BasePage - Clicked element: By.id: nav-search-submit-button
+2026-06-23 22:34:29.251 [main] INFO  base.BasePage - Page fully loaded
+2026-06-23 22:34:29.252 [main] INFO  utils.LoggerUtil - ✓ PASS: Search performed for: Mobiles
+2026-06-23 22:34:29.252 [main] INFO  utils.LoggerUtil - ▶ STEP: Scroll to last displayed item
+2026-06-23 22:34:29.347 [main] INFO  base.BasePage - Page fully loaded
+2026-06-23 22:34:29.426 [main] INFO  pages.SearchPage - Found 22 search results
+2026-06-23 22:34:29.471 [main] INFO  base.BasePage - Scrolled to bottom of page
+2026-06-23 22:34:29.501 [main] INFO  base.BasePage - Page fully loaded
+2026-06-23 22:34:29.536 [main] INFO  base.BasePage - Page fully loaded
+2026-06-23 22:34:29.606 [main] INFO  pages.SearchPage - Found 22 search results
+2026-06-23 22:34:29.651 [main] INFO  base.BasePage - Scrolled to element
+2026-06-23 22:34:29.651 [main] INFO  pages.SearchPage - Got last search result
+2026-06-23 22:34:29.721 [main] INFO  pages.SearchPage - Last item title Apple iPhone Air 256 GB: Thinnest iPhone Ever, 16.63 cm (6.5″) Display with Promotion up to 120Hz, Powerful A19 Pro Chip, Center Stage Front Camera, All-Day Battery Life; Cloud White
+2026-06-23 22:34:29.735 [main] INFO  base.BasePage - Page fully loaded
+2026-06-23 22:34:29.753 [main] INFO  pages.SearchPage - Found 22 search results
+2026-06-23 22:34:29.761 [main] INFO  base.BasePage - Scrolled to bottom of page
+2026-06-23 22:34:29.779 [main] INFO  base.BasePage - Page fully loaded
+2026-06-23 22:34:29.792 [main] INFO  base.BasePage - Page fully loaded
+2026-06-23 22:34:29.812 [main] INFO  pages.SearchPage - Found 22 search results
+2026-06-23 22:34:29.824 [main] INFO  base.BasePage - Scrolled to element
+2026-06-23 22:34:29.824 [main] INFO  pages.SearchPage - Got last search result
+2026-06-23 22:34:29.942 [main] INFO  pages.SearchPage - Last item price 
+2026-06-23 22:34:29.942 [main] INFO  utils.LoggerUtil - Last item title: Apple iPhone Air 256 GB: Thinnest iPhone Ever, 16.63 cm (6.5″) Display with Promotion up to 120Hz, Powerful A19 Pro Chip, Center Stage Front Camera, All-Day Battery Life; Cloud White
+2026-06-23 22:34:29.942 [main] INFO  utils.LoggerUtil - Last item price: 
+2026-06-23 22:34:29.942 [main] INFO  utils.LoggerUtil - ✓ PASS: Scrolled to last item
+2026-06-23 22:34:29.944 [main] INFO  utils.LoggerUtil - ▶ STEP: Verify last item details
+2026-06-23 22:34:29.947 [main] INFO  utils.LoggerUtil - Verified last item: 'Apple iPhone Air 256 GB: Thinnest iPhone Ever, 16.63 cm (6.5″) Display with Promotion up to 120Hz, Powerful A19 Pro Chip, Center Stage Front Camera, All-Day Battery Life; Cloud White'
+2026-06-23 22:34:29.947 [main] INFO  utils.LoggerUtil - ✓ PASS: Last item details verified
+2026-06-23 22:34:29.951 [main] INFO  hooks.Hooks - Scenario PASSED: Search for Mobiles and get last displayed item details
+2026-06-23 22:34:30.373 [main] INFO  hooks.Hooks - Browser closed
+2026-06-23 22:34:30.373 [main] INFO  utils.LoggerUtil - SCENARIO PASSED: Search for Mobiles and get last displayed item details
+2026-06-23 22:34:30.373 [main] INFO  utils.LoggerUtil - =================================================
+2026-06-23 22:34:30.382 [main] INFO  utils.LoggerUtil - =================================================
+2026-06-23 22:34:30.382 [main] INFO  utils.LoggerUtil - SCENARIO START: Search multiple products and verify results
+2026-06-23 22:34:30.382 [main] INFO  utils.LoggerUtil - =================================================
+2026-06-23 22:34:30.382 [main] INFO  hooks.Hooks - Tags: [@Regression, @Search, @Positive]
+2026-06-23 22:34:31.225 [main] INFO  hooks.Hooks - Browser launched for scenario: Search multiple products and verify results
+2026-06-23 22:34:31.229 [main] INFO  utils.LoggerUtil - ▶ STEP: Opening Amazon website
+2026-06-23 22:34:32.575 [main] INFO  base.BasePage - Navigated to: https://www.amazon.in
+2026-06-23 22:34:32.627 [main] INFO  base.BasePage - Page fully loaded
+2026-06-23 22:34:32.639 [main] INFO  utils.LoggerUtil - ✓ PASS: Amazon opened successfully
+2026-06-23 22:34:32.639 [main] INFO  utils.LoggerUtil - ▶ STEP: Search for product: iPhone
+2026-06-23 22:34:35.341 [main] INFO  base.BasePage - Typed 'iPhone' into: By.id: twotabsearchtextbox
+2026-06-23 22:34:57.492 [main] INFO  base.BasePage - Clicked element: By.id: nav-search-submit-button
+2026-06-23 22:34:57.508 [main] INFO  base.BasePage - Page fully loaded
+2026-06-23 22:34:57.508 [main] INFO  utils.LoggerUtil - ✓ PASS: Search performed for: iPhone
+2026-06-23 22:34:57.511 [main] INFO  utils.LoggerUtil - ▶ STEP: Verify search results present
+2026-06-23 22:34:57.558 [main] INFO  utils.LoggerUtil - Search returned 18 results
+2026-06-23 22:34:57.561 [main] INFO  utils.LoggerUtil - ✓ PASS: Search results verified: 18 items
+2026-06-23 22:34:57.581 [main] INFO  hooks.Hooks - Scenario PASSED: Search multiple products and verify results
+2026-06-23 22:34:57.940 [main] INFO  hooks.Hooks - Browser closed
+2026-06-23 22:34:57.940 [main] INFO  utils.LoggerUtil - SCENARIO PASSED: Search multiple products and verify results
+2026-06-23 22:34:57.940 [main] INFO  utils.LoggerUtil - =================================================
