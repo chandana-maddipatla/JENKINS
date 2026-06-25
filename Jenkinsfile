@@ -3,15 +3,18 @@ pipeline {
 
     stages {
 
-        stage('Build') {
+        stage('Debug Environment') {
             steps {
-                bat 'mvn clean compile'
+                bat 'echo JAVA_HOME=%JAVA_HOME%'
+                bat 'where java'
+                bat 'java -version'
+                bat 'where mvn'
             }
         }
 
-        stage('Test') {
+        stage('Build') {
             steps {
-                bat 'mvn test'
+                bat 'mvn clean compile'
             }
         }
     }
